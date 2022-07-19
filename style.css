@@ -49,6 +49,13 @@ header {
     line-height: 70px;
 }
 
+.heading p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 0.8);
+}
+
 .button-header {
     background-color: #521B73;
     border: none;
@@ -319,6 +326,14 @@ hr {
         font-size: 26px;
         line-height: 33px;
         margin-bottom: 20px;
+    }
+
+    .heading p {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        text-align: center;
+        color: rgba(255, 255, 255, 0.8);
     }
 
     .heading,
