@@ -203,7 +203,7 @@ aside {
     margin-right: 10px;
 }
 
-/* footer */
+/* FOOTER */
 footer {
     padding: 6% 8.5% 3% 8.5%;
     background-color: #161616;
@@ -256,4 +256,35 @@ hr {
     font-size: 22px;
     line-height: 24px;
     color: #B9B9B9;
+}
+
+
+/* MATCH HTML */
+
+.match {
+    padding: 3.313rem 1.875rem 2.8rem;
+}
+
+.match-between {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.match-info h2 {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #161616;
+}
+
+.match-info p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #4D4D4D;
+    margin-top: 5px;
 }
