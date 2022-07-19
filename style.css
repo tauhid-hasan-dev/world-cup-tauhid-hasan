@@ -20,7 +20,7 @@ body {
 
 /* HEADER STYLE STARTS */
 header {
-    padding: 3.125rem 8.75rem;
+    padding: 5% 8.5%;
 }
 
 .header-section {
@@ -53,13 +53,13 @@ header {
     background-color: #521B73;
     border: none;
     border-radius: 5px;
-    padding: 15px 20px;
+    padding: 0.938rem 1.25rem;
     font-size: 16px;
-    margin-top: 20px;
+    margin-top: 1.25rem;
 }
 
 i {
-    margin-left: 10px;
+    margin-left: 0.625rem;
 }
 
 button a {
@@ -78,12 +78,24 @@ button a {
 }
 
 /* BLOG SECTION */
+main {
+    padding: 4% 8.5%;
+}
 
+.main-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* aside */
+aside {
+    width: 25%;
+}
 
 .pages {
-    width: 312px;
+    width: 100%;
     padding: 30px;
-    border-radius: 10px;
+    border-radius: 0.625rem;
     background: rgb(2, 0, 36);
     background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgb(35, 3, 54) 37%, rgb(56, 9, 82) 100%);
     display: grid;
@@ -94,28 +106,141 @@ button a {
 .button {
     background-color: #ffffff;
     border: none;
-    border-radius: 10px;
-    padding: 15px 20px;
+    border-radius: 0.625rem;
+    padding: 0.938rem 1.25rem;
     font-size: 16px;
 }
 
 .button.active {
     background-color: #6a2492;
     border: none;
-    border-radius: 10px;
-    padding: 15px 20px;
+    border-radius: 0.625rem;
+    padding: 0.938rem 1.25rem;
     font-size: 16px;
 }
 
 .button.active a {
     color: white;
     font-weight: 600;
-    font-size: 20px;
+    font-size: 1.25rem;
 
 }
 
 .button a {
     color: #521B73;
     font-weight: 500;
-    font-size: 20px;
+    font-size: 1.25rem;
+}
+
+/* blog */
+.blogs {
+    width: 73.5%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2%;
+    height: 100%;
+}
+
+.blog {
+    width: 100%;
+    border: 1px solid lightgray;
+    border-radius: 0.625rem;
+
+}
+
+.blog-info {
+    padding: 1.1rem;
+}
+
+.blog-info h3 {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    color: #161616;
+    margin-bottom: 20px;
+}
+
+.blog-info button {
+    padding: 4px 1.25rem;
+    border-radius: 5px;
+    border: 1px solid rgb(63, 63, 63);
+    background-color: #ffffff;
+    margin-bottom: 0.625rem;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #161616;
+}
+
+.blog-image img {
+    width: 100%;
+}
+
+.info-text {
+    display: flex;
+    justify-content: flex-start;
+    color: rgba(22, 22, 22, 0.7);
+}
+
+.clock {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-right: 20px;
+}
+
+.clock i {
+    margin-right: 10px;
+    margin-left: -2px;
+}
+
+.comment {
+    display: flex;
+    align-items: center;
+}
+
+.comment i {
+    margin-right: 10px;
+}
+
+/* footer */
+footer {
+    padding: 8.5%;
+    background-color: #161616;
+}
+
+.footer-container {
+    width: 100%;
+
+}
+
+.footer-container h1 {
+    text-align: center;
+    color: white;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 60px;
+}
+
+.footer-nav {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-nav a {
+    text-decoration: none;
+    margin: 0 30px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #B9B9B9;
+}
+
+hr {
+    height: 1px;
+    border-width: 0;
+    color: gray;
+    background-color: gray;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
