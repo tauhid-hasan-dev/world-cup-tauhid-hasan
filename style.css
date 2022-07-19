@@ -205,7 +205,7 @@ aside {
 
 /* footer */
 footer {
-    padding: 8.5%;
+    padding: 6% 8.5% 3% 8.5%;
     background-color: #161616;
     margin-top: 5%;
 }
@@ -244,4 +244,16 @@ hr {
     background-color: gray;
     margin-top: 30px;
     margin-bottom: 30px;
+}
+
+.social {
+    text-align: center;
+}
+
+.social i {
+    margin: 60px 20px 0;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 24px;
+    color: #B9B9B9;
 }
