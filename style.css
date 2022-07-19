@@ -1,10 +1,10 @@
-/* google font start*/
+/* GOOGLE FONT*/
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 
-/* google font end*/
 
-/* General Styles Starts */
+
+/* GENERAL STYLE STARTS */
 * {
     margin: 0;
     padding: 0;
@@ -17,18 +17,8 @@ body {
 
 }
 
-button {
-    background-color: #521B73;
-    border: none;
-    border-radius: 5px;
-    padding: 15px 20px;
-    font-size: 16px;
-    margin-top: 30px;
-}
 
-/* General Styles Ends */
-
-/* header starts here */
+/* HEADER STYLE STARTS */
 header {
     padding: 3.125rem 8.75rem;
 }
@@ -45,14 +35,27 @@ header {
 
 .heading {
     width: 50%;
-    padding: 8rem 6.25rem;
+    padding: 8rem 4.25rem 8rem 6.25rem;
     text-align: start;
+}
+
+.heading h1 {
+    margin-bottom: 3.125rem;
 }
 
 .heading h1 {
     font-weight: 700;
     font-size: 50px;
     line-height: 70px;
+}
+
+.button-header {
+    background-color: #521B73;
+    border: none;
+    border-radius: 5px;
+    padding: 15px 20px;
+    font-size: 16px;
+    margin-top: 20px;
 }
 
 i {
@@ -72,5 +75,47 @@ button a {
 
 .image img {
     width: 90%;
+}
 
+/* BLOG SECTION */
+
+
+.pages {
+    width: 312px;
+    padding: 30px;
+    border-radius: 10px;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgb(35, 3, 54) 37%, rgb(56, 9, 82) 100%);
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 30px;
+}
+
+.button {
+    background-color: #ffffff;
+    border: none;
+    border-radius: 10px;
+    padding: 15px 20px;
+    font-size: 16px;
+}
+
+.button.active {
+    background-color: #6a2492;
+    border: none;
+    border-radius: 10px;
+    padding: 15px 20px;
+    font-size: 16px;
+}
+
+.button.active a {
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+
+}
+
+.button a {
+    color: #521B73;
+    font-weight: 500;
+    font-size: 20px;
 }
