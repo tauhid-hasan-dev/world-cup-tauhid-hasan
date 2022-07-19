@@ -1,3 +1,10 @@
+/* google font start*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+/* google font end*/
+
+/* General Styles Starts */
 * {
     margin: 0;
     padding: 0;
@@ -5,6 +12,65 @@
 }
 
 body {
+    font-family: 'Poppins', sans-serif;
     min-height: 100vh;
-    background-color: aqua;
+
+}
+
+button {
+    background-color: #521B73;
+    border: none;
+    border-radius: 5px;
+    padding: 15px 20px;
+    font-size: 16px;
+    margin-top: 30px;
+}
+
+/* General Styles Ends */
+
+/* header starts here */
+header {
+    padding: 3.125rem 8.75rem;
+}
+
+.header-section {
+    display: flex;
+    width: 100%;
+    min-height: 40.375rem;
+    color: white;
+    border-radius: 1.875rem;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(52, 6, 79, 1) 37%, rgba(128, 58, 170, 1) 100%);
+}
+
+.heading {
+    width: 50%;
+    padding: 8rem 6.25rem;
+    text-align: start;
+}
+
+.heading h1 {
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 70px;
+}
+
+i {
+    margin-left: 10px;
+}
+
+button a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.image {
+    width: 50%;
+    display: flex;
+    align-items: flex-end;
+}
+
+.image img {
+    width: 90%;
+
 }
