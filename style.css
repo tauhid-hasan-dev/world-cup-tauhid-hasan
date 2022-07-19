@@ -288,3 +288,64 @@ hr {
     color: #4D4D4D;
     margin-top: 5px;
 }
+
+/* MEDIA QUERY */
+
+@media screen and (max-width: 688px) {
+
+    /* HEADER MEDIA QUERY */
+
+    .header-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .heading h1 {
+        font-weight: 700;
+        font-size: 50px;
+        line-height: 70px;
+    }
+
+    .heading {
+        padding: 4rem 4rem;
+        text-align: start;
+        text-align: center;
+    }
+
+    .heading h1 {
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 33px;
+        margin-bottom: 20px;
+    }
+
+    .heading,
+    .image {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .image img {
+        width: 80%;
+    }
+
+    /* MAIN MEDIA QUERY */
+    aside {
+        width: 100%;
+    }
+
+    .pages {
+        background: rgb(139, 138, 138);
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+
+    .main-section {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+}
