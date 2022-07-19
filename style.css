@@ -74,7 +74,7 @@ button a {
 }
 
 .image img {
-    width: 90%;
+    width: 80%;
 }
 
 /* BLOG SECTION */
@@ -207,6 +207,7 @@ aside {
 footer {
     padding: 8.5%;
     background-color: #161616;
+    margin-top: 5%;
 }
 
 .footer-container {
