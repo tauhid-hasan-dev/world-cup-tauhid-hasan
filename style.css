@@ -414,4 +414,44 @@ hr {
     .heading h1 {
         margin-bottom: 6%;
     }
+
+    .main-section {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-bottom: 15%;
+    }
+
+    aside {
+        width: 100%;
+    }
+
+    .blogs {
+        width: 100%;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 3%;
+        margin-top: 5%;
+    }
+
+    .last-one-ipad {
+        display: none;
+    }
+
+    .pages {
+        grid-template-columns: repeat(3, 1fr);
+        padding: 0;
+        background: #ffffff;
+    }
+
+    .button {
+        border: 1px solid rgb(208, 208, 208);
+    }
+
+    .footer-nav {
+        flex-wrap: wrap;
+    }
+
+    .footer-nav a {
+        line-height: 50px;
+    }
 }
