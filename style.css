@@ -14,7 +14,6 @@
 body {
     font-family: 'Poppins', sans-serif;
     min-height: 100vh;
-
 }
 
 
@@ -26,7 +25,6 @@ header {
 .header-section {
     display: flex;
     width: 100%;
-    min-height: 40.375rem;
     color: white;
     border-radius: 1.875rem;
     background: rgb(2, 0, 36);
@@ -35,7 +33,7 @@ header {
 
 .heading {
     width: 50%;
-    padding: 8rem 4.25rem 8rem 6.25rem;
+    padding: 10% 8% 10%;
     text-align: start;
 }
 
@@ -45,13 +43,13 @@ header {
 
 .heading h1 {
     font-weight: 700;
-    font-size: 50px;
-    line-height: 70px;
+    font-size: 3vw;
+    line-height: 5vw;
 }
 
 .heading p {
     font-weight: 400;
-    font-size: 14px;
+    font-size: 1.1vw;
     line-height: 24px;
     color: rgba(255, 255, 255, 0.8);
 }
@@ -406,6 +404,14 @@ hr {
         margin-bottom: 20px;
     }
 
+}
 
+@media screen and (min-width:689px) and (max-width: 992px) {
+    .heading p {
+        font-size: 1.4vw;
+    }
 
+    .heading h1 {
+        margin-bottom: 6%;
+    }
 }
