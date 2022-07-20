@@ -1,8 +1,5 @@
 /* GOOGLE FONT*/
-
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
-
-
 
 /* GENERAL STYLE STARTS */
 * {
@@ -15,7 +12,6 @@ body {
     font-family: 'Poppins', sans-serif;
     min-height: 100vh;
 }
-
 
 /* HEADER STYLE STARTS */
 header {
@@ -31,7 +27,6 @@ header {
     background: rgb(2, 0, 36);
     background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(52, 6, 79, 1) 37%, rgba(128, 58, 170, 1) 100%);
 }
-
 
 .heading {
     width: 50%;
@@ -308,7 +303,7 @@ hr {
     display: none;
 }
 
-/* MEDIA QUERY */
+/* FOR MOBILE VIEW */
 
 @media screen and (max-width: 688px) {
 
@@ -420,7 +415,11 @@ hr {
 
 }
 
+/* FOR TABLET (MEDIUM) VIEW */
+
 @media screen and (min-width:689px) and (max-width: 992px) {
+    /* HEADER */
+
     .heading p {
         font-size: 1.4vw;
     }
@@ -429,6 +428,7 @@ hr {
         margin-bottom: 6%;
     }
 
+    /* MAIN */
     .main-section {
         display: flex;
         flex-direction: column;
